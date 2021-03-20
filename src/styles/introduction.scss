@@ -1,0 +1,39 @@
+@import './main.scss';
+
+.gr-email-introduction{
+    padding: 5rem;
+    text-align: center;
+    color: $main-app-theme-color;
+    h3{
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        color: $text-color;
+    }
+    .what-being-cleaned{
+        margin-top: 3rem;
+    }
+    .faq{
+        margin-top: 3rem;
+        .faqs{
+            h4{
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 33px;
+            }
+            .col-md-6{
+                text-align: start;
+                padding-left: 2rem;
+                padding-right: 4rem;
+            }
+        }
+    }
+}
+hr{
+    border-bottom: 2px solid $main-app-theme-color !important;
+}

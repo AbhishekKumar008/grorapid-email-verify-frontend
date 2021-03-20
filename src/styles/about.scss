@@ -1,0 +1,175 @@
+@import './main.scss';
+
+.gr-email-verify-body{
+    padding-bottom: 3rem;
+    .spinner{
+        position: relative;
+        top: -12rem;
+        left: 35rem;
+        height: 0rem;
+        .spinner-border{
+            color: $main-app-theme-color;
+        }
+    }
+    .filename-instance{
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid $grey-color-1;
+        padding: 0.5rem;
+        .file-image{
+            background: rgba(1, 185, 128, 0.1);
+            padding: 0.5rem;
+        }
+        span{
+            margin-left: 1rem;
+        }
+        .btn.btn-primary{
+            border: 1px solid $main-app-theme-color;
+            background-color: $main-app-theme-color;
+            border-radius: 0px;
+            padding: 0.5rem 2rem;
+        }
+    }
+    .gr-email-verify-about{
+        width: 50%;
+        margin: auto;
+        margin-top: 5rem;
+        text-align: center;
+        h3{
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 65px;
+            color: $main-app-theme-color;
+        }
+        p{
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 33px;
+            color: $text-color;
+        }
+    }
+    .gr-email-verify-options{
+        text-align: center;
+        margin-top: 3rem;
+        .btn.btn-primary{
+            border-radius: 0px;
+            padding: 0.5rem 2rem;
+            background-color: white;
+            color: $grey-color-1;
+            border: 1px solid $grey-color-1;
+            &:active,:focus,:hover{
+                background-color: $main-app-theme-color;
+                color: white;
+            }
+
+        }
+        .btn.btn-primary.active{
+            background-color: $main-app-theme-color;
+            border: 1px solid $main-app-theme-color;
+            box-shadow: none;
+        }
+    }
+    .input-drop-file{
+        margin-top: 3rem;
+        width: 100%;
+        text-align: center;
+        border: 1px dotted $grey-color-1;
+        background-color: $grey-color-2;
+        padding: 3.5rem;
+        p{
+            font-size: 12px;
+            line-height: 19px;
+            color: $text-color;
+        }
+        .btn.btn-primary{
+            border-radius: 0px;
+            background-color: transparent;
+            color: $main-app-theme-color;
+            border: 1px solid $main-app-theme-color;
+            &:active,:focus{
+                background-color: $main-app-theme-color !important;
+            }
+        }
+
+    }
+    .single-email-form{
+        margin-top: 3rem;
+        textarea.form-control{
+            padding: 1rem;
+            height: 232px;
+            background-color: #FCFCFC;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            color: #4F4F4F;
+        }
+        .submit-button{
+            border: 1px solid $main-app-theme-color;
+            background-color: $main-app-theme-color;
+            border-radius: 0px;
+            padding: 0.5rem 2rem;
+        }
+    }
+}
+.email-response-tab{
+    padding: 0.5rem 1rem;
+    border: 1px solid $grey-color-1;
+    .total-emails{
+
+    }
+    .response-pills{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            margin: auto;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .pills{
+            width: 10%;
+            text-align: center;
+            padding: 0.1rem 0rem;
+        }
+        .valid-email{
+            border-left: 2px solid $main-app-theme-color ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $main-app-theme-color;
+        }
+        .invalid-email{
+            border-left: 2px solid $red ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $red;
+        }
+        .spam-email{
+            border-left: 2px solid $purple ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $purple;
+        }
+        .accept-all{
+            border-left: 2px solid $orange ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $orange;
+        }
+        .disposable{
+            border-left: 2px solid $green ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $green;
+        }
+        .unknown{
+            border-left: 2px solid $black ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $black;
+        }
+        .duplicate{
+            border-left: 2px solid $yellow ;
+            background: rgba(1, 185, 128, 0.1);
+            color: $yellow;
+        }
+    }
+}

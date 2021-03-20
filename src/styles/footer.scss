@@ -1,0 +1,33 @@
+@import './main.scss';
+
+.footer-section{
+    background-color: $main-app-theme-color;
+    padding: 2rem 4.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    .column-first{
+        p{
+            margin-top: 1rem;
+        }
+
+    }
+    .column-second{
+        text-align: end;
+        .terms-privacy{
+            display: flex;
+            justify-content: flex-end;
+            p:last-child{
+                margin-left: 2rem;
+            }
+        }
+        .icons-list{
+            a{
+                text-decoration: none;
+                color: white;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

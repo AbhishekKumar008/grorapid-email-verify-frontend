@@ -1,0 +1,22 @@
+@import './main.scss';
+
+.gr-email-verify-header{
+    background-color: $main-app-theme-color;
+    justify-content: space-between !important;
+    .navbar-brand {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 44px;
+        color: white !important;
+        margin-left: 3rem;
+    }
+    .navbar-nav{
+        margin-right: 2rem;
+        .nav-link{
+            svg{
+                color: white;
+            }
+        }
+    }
+}

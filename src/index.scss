@@ -1,0 +1,14 @@
+@import './styles/main.scss';
+body{
+     scroll-behavior: smooth;
+     transition: 1s;
+     font-family: $font-family;
+
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+   body{
+     p {
+       font-family: Nunito;
+     }
+   }
